@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: vote-app
-        image: kodekloud/examplevotingapp_vote:latest
+        image: nginx:latest
         ports:
         - containerPort: 80
